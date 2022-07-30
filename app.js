@@ -31,6 +31,7 @@ passport.use(new GitHubStrategy({
   }
 ));
 
+
 var indexRouter = require('./routes/index');
 var loginRouter = require('./routes/login');
 var logoutRouter = require('./routes/logout');
